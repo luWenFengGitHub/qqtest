@@ -15,6 +15,7 @@
 		DD2289551D7EC21C0019A897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2289531D7EC21C0019A897 /* LaunchScreen.storyboard */; };
 		DD2289601D7EC21C0019A897 /* qqTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22895F1D7EC21C0019A897 /* qqTestTests.m */; };
 		DD22896B1D7EC21C0019A897 /* qqTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22896A1D7EC21C0019A897 /* qqTestUITests.m */; };
+		DD22897A1D7ECB8A0019A897 /* FGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2289791D7ECB8A0019A897 /* FGUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DD2289661D7EC21C0019A897 /* qqTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qqTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD22896A1D7EC21C0019A897 /* qqTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qqTestUITests.m; sourceTree = "<group>"; };
 		DD22896C1D7EC21C0019A897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2289781D7ECB8A0019A897 /* FGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUser.h; sourceTree = "<group>"; };
+		DD2289791D7ECB8A0019A897 /* FGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DD2289491D7EC21C0019A897 /* AppDelegate.m */,
 				DD22894B1D7EC21C0019A897 /* ViewController.h */,
 				DD22894C1D7EC21C0019A897 /* ViewController.m */,
+				DD2289781D7ECB8A0019A897 /* FGUser.h */,
+				DD2289791D7ECB8A0019A897 /* FGUser.m */,
 				DD22894E1D7EC21C0019A897 /* Main.storyboard */,
 				DD2289511D7EC21C0019A897 /* Assets.xcassets */,
 				DD2289531D7EC21C0019A897 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				DD22894D1D7EC21C0019A897 /* ViewController.m in Sources */,
 				DD22894A1D7EC21C0019A897 /* AppDelegate.m in Sources */,
 				DD2289471D7EC21C0019A897 /* main.m in Sources */,
+				DD22897A1D7ECB8A0019A897 /* FGUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
