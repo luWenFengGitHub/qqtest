@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"qq测试";
     self.view.backgroundColor = [UIColor yellowColor];
+    self.title = @"qq测试";
 }
 
 @end
